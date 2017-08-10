@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class WelcomeVC: UIViewController {
 
     @IBOutlet var swoosh: UIImageView!
     @IBOutlet var bgImg: UIImageView!
@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         
     }
 
-    @IBAction func unwindFromSkilVC(unwindSegue: UIStoryboardSegue) {
+    @IBAction func unwindFromLeagueVC(unwindSegue: UIStoryboardSegue) {
         
     }
     

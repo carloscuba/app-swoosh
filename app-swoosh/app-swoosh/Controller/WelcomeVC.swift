@@ -9,9 +9,6 @@
 import UIKit
 
 class WelcomeVC: UIViewController {
-
-    @IBOutlet var swoosh: UIImageView!
-    @IBOutlet var bgImg: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
